@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1029094710350",
+    "firebase_url": "https://homecaremobile-7749a.firebaseio.com",
+    "project_id": "homecaremobile-7749a",
+    "storage_bucket": "homecaremobile-7749a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029094710350:android:32db1cd52cef551be6371f",
+        "android_client_info": {
+          "package_name": "com.example.homecaremobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029094710350-qbasujm3deq8o2vbhqvv3e87bvor0aib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtKrh4Ucxbrp5RoGqfCTrkOU8NKsTyFD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029094710350-qbasujm3deq8o2vbhqvv3e87bvor0aib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
