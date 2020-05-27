@@ -3,6 +3,8 @@ package com.example.homecaremobile;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
@@ -17,7 +19,7 @@ public class MainProprietaireActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
+//        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main_proprietaire);
 
 
@@ -46,5 +48,25 @@ public class MainProprietaireActivity extends AppCompatActivity {
         list.add(maison);
 
         return list;
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_edit:
+                /* DO EDIT */
+                return true;
+            case R.id.action_add:
+                /* DO ADD */
+                return true;
+            case R.id.action_delete:
+                /* DO DELETE */
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

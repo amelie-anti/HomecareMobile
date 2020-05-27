@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1029094710350-2uhjekum4kr1jlveh119dndb9quj8hre.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homecaremobile",
+            "certificate_hash": "667c4d4b121e39e7b43f5db39a276a028bb116a0"
+          }
+        },
+        {
           "client_id": "1029094710350-qbasujm3deq8o2vbhqvv3e87bvor0aib.apps.googleusercontent.com",
           "client_type": 3
         }
